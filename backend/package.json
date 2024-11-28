@@ -1,0 +1,21 @@
+{
+  "name": "ielts-pte-backend-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "expres": "^0.0.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3",
+    "mongoose-sequence": "^6.0.1"
+  }
+}

@@ -28,6 +28,13 @@ const userProgressSchema = new Schema({
     type: Date,
     default: Date.now,
   },
+  endTime: { type: Date },
+  remainingTime: { type: Number },
+  status: {
+    type: String,
+    enum: ["in-progress", "paused", "completed", "expired"],
+    default: "in-progress",
+  },
 });
 
 userProgressSchema.index({ userId: 1, examId: 1 }, { unique: true });

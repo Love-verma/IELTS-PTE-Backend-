@@ -14,7 +14,7 @@ app.use(
     limit: "16kb",
   })
 );
-app.use("/ques", quesRoute);
+app.use("/exam", quesRoute);
 
 app.get("/", (req, res) => {
   res.send("Welcome to PTE Exam!");

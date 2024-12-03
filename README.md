@@ -9,3 +9,5 @@ https://www.postman.com/sarmt/theassigner/overview
 ## POST
 ![Post @image-classification](image-clf.png)
 
+## POST
+![Post @sentiment-analysis](sentiment-anl.png)

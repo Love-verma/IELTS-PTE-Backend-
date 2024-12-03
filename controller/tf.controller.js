@@ -1,10 +1,9 @@
 import { promises as fs } from "fs";
 const cocoSsd = await import("@tensorflow-models/coco-ssd");
-const tf = await import("@tensorflow/tfjs-node");
+const tf = await import("@tensorflow/tfjs-node-gpu");
 const mobilenet = await import("@tensorflow-models/mobilenet");
 const use = await import("@tensorflow-models/universal-sentence-encoder");
-
-let mobModel;
+let mobModel; 
 const loadMobModel = async () => {
   if (!mobModel) {
     mobModel = await mobilenet.load();

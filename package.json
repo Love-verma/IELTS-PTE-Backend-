@@ -1,0 +1,23 @@
+{
+  "name": "text_analysis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "http": "^0.0.1-security",
+    "natural": "^8.0.1",
+    "path": "^0.12.7",
+    "stopword": "^3.1.1",
+    "url": "^0.11.4"
+  }
+}

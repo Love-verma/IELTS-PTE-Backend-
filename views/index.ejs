@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Sentiment Analysis</title>
+</head>
+<body>
+    <h1>Text Sentiment Analysis</h1>
+
+    <!-- Form to submit text for sentiment analysis -->
+    <form action="/analyze" method="get">
+        <textarea name="text" rows="4" cols="50" placeholder="Enter text for sentiment analysis"></textarea><br>
+        <button type="submit">Analyze</button>
+    </form>
+
+    <% if (sentiment !== null) { %>
+        <h2>Sentiment: <%= sentiment %></h2>
+        <h3>Score: <%= score %></h3>
+    <% } %>
+
+</body>
+</html>

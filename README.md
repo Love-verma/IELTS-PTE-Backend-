@@ -11,3 +11,9 @@ https://www.postman.com/sarmt/theassigner/overview
 
 ## POST
 ![Post @sentiment-analysis](sentiment-anl.png)
+
+## POST
+![Post @post-node-req](post-node-req.png)
+
+## GET
+![Get @get-node-req](node-req.png)

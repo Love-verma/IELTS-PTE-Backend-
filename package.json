@@ -1,0 +1,25 @@
+{
+  "name": "ielts-pte-backend-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "3.1.0",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1",
+    "@tensorflow-models/mobilenet": "^2.0.4",
+    "@tensorflow/tfjs": "^2.0.0",
+    "antd": "^4.2.5",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "formidable": "^1.2.2",
+    "get-image-data": "^4.1.0",
+    "nodemon": "^2.0.4"
+  }
+}

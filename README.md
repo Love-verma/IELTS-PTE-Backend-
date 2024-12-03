@@ -8,3 +8,4 @@ https://www.postman.com/sarmt/theassigner/overview
 
 ## POST
 ![Post @image-classification](image-clf.png)
+
